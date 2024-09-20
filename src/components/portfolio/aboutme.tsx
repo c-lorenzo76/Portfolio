@@ -1,7 +1,7 @@
 import {FlipWords} from "@/components/ui/flip-words.tsx";
 import { motion } from "framer-motion";
 import {Button} from "@/components/ui/button.tsx";
-import picture from '../../assets/profile_page.jpeg';
+import picture from '/public/profile_page.jpeg';
 
 
 export function AboutMe(){
