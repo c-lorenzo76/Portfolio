@@ -1,16 +1,33 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Layout } from './pages/Layout';
-import { Home } from './pages/Home';
+import {Navbar} from "@/components/portfolio/navbar.tsx";
+import {AboutMe} from "@/components/portfolio/aboutme.tsx";
+import {Competencies} from "@/components/portfolio/competencies.tsx";
+import {Projects} from "@/components/portfolio/projects.tsx";
+import {Contact} from "@/components/portfolio/contact.tsx";
+import {Footer} from "@/components/portfolio/footer.tsx";
 
 function App() {
   return (
-    <BrowserRouter>
-        <Routes>
-            <Route element={<Layout />}>
-                <Route index element={<Home />} />
-            </Route>
-        </Routes>
-    </BrowserRouter>
+      <div>
+          <div className="light:text-black flex flex-col w-full border">
+              <Navbar/>
+              <div id={"about-me"} className="about-me">
+                  <AboutMe/>
+              </div>
+              <div id={"competencies"} className="compentencies">
+                  <Competencies/>
+              </div>
+              <div id={"projects"} className="projects">
+                  <Projects/>
+              </div>
+              <div id={"contact"} className="contact">
+                  <Contact/>
+              </div>
+              <div className="footer">
+                  <Footer/>
+              </div>
+          </div>
+      </div>
+
   )
 }
 
