@@ -1,6 +1,7 @@
 import {FlipWords} from "@/components/ui/flip-words.tsx";
 import { motion } from "framer-motion";
 import {Button} from "@/components/ui/button.tsx";
+import picture from '../../assets/profile_page.jpeg';
 
 
 export function AboutMe(){
@@ -41,7 +42,7 @@ export function AboutMe(){
                         }}
                     >
                         <div className="about flex flex-col items-center">
-                            <img src="src/assets/profile_page.jpeg" alt="Picture"
+                            <img src={picture} alt="Picture"
                                  className="w-64 h-64 md:h-72 md:w-72 lg:w-96 lg:h-96 rounded-full"
                             />
                             <span className="font-bold text-xl  mt-4 ">Cristian Lorenzo-Pavon 👋</span>
