@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button.tsx";
 export function Navbar () {
 // #423944
     return (
-        <header className="header flex h-16 items-center justify-between shadow-md">
+        <header className="header font-poppins flex h-16 items-center justify-between shadow-md">
             <div className="me h-full flex items-center flex-shrink-0 w-[300px] md:w-[315px]">
                 <img
                     src="https://media.tenor.com/OEAjabUzGKEAAAAi/microsoft-computer.gif"

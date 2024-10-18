@@ -4,12 +4,16 @@ import {Competencies} from "@/components/portfolio/competencies.tsx";
 import {Projects} from "@/components/portfolio/projects.tsx";
 import {Contact} from "@/components/portfolio/contact.tsx";
 import {Footer} from "@/components/portfolio/footer.tsx";
+import {Landing} from "@/components/portfolio/landingpage.tsx";
 
 function App() {
   return (
       <div>
           <div className="light:text-black flex flex-col w-full border">
-              <Navbar/>
+              {/*<Navbar/>*/}
+              <div className={"landing-page"}>
+                  <Landing/>
+              </div>
               <div id={"about-me"} className="about-me">
                   <AboutMe/>
               </div>

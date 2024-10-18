@@ -52,7 +52,7 @@ export function Contact() {
                     Contact me
                 </h1>
                 <div className="flex flex-col items-center mb-24 ">
-                    <Card className="w-[380px] md:w-[600px]">
+                    <Card className="w-[360px] md:w-[600px]">
                         <CardHeader>
                             <CardTitle>Ready to work together?</CardTitle>
                             <CardDescription>Only one click away!</CardDescription>
