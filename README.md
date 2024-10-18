@@ -19,6 +19,12 @@ https://c-lorenzo76.github.io/Portfolio/
 </div>
 
 ### Issues
+10/8<br>
+Okay i'm heated I can't figure out what is making the sheet trigger move on the x-axis whenever its in mobile view.
+I just need to the spacing for the divs and the fix that issue and then mess around with color and see what goes good. 
+Then i'm practically done maybe make it a bit prettier for  theh landing apge. goodnight fuck that sheet trigger. 
+<br>
+
 10/7 <br>
 Okay I fixed the responsiveness for the phones I had viewed it in. 
 I need to put my updated resume on here.

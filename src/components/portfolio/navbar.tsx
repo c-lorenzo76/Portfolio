@@ -3,10 +3,11 @@ import {Sheet, SheetContent, SheetTrigger} from "@/components/ui/sheet.tsx";
 import { Button } from "@/components/ui/button.tsx";
 
 
-export function Navbar () {
+export function Navbar ({ isTransparent}) {
 // #423944
+
     return (
-        <header className="header font-poppins flex h-16 items-center justify-between shadow-md">
+        <header className={`header z-50 font-poppins flex h-16 items-center justify-between shadow-md fixed top-0 w-full transition-all duration-300 ${isTransparent ? 'bg-transparent shadow-none' : 'bg-white shadow-md'}`}>
             <div className="me h-full flex items-center flex-shrink-0 w-[300px] md:w-[315px]">
                 <img
                     src="https://media.tenor.com/OEAjabUzGKEAAAAi/microsoft-computer.gif"
