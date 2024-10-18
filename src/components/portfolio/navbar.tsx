@@ -3,7 +3,11 @@ import {Sheet, SheetContent, SheetTrigger} from "@/components/ui/sheet.tsx";
 import { Button } from "@/components/ui/button.tsx";
 
 
-export function Navbar ({ isTransparent}) {
+interface NavbarProps {
+    isTransparent: boolean;
+}
+
+export function Navbar ({isTransparent}: NavbarProps) {
 // #423944
 
     return (
