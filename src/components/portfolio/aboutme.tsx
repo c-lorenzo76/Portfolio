@@ -2,19 +2,13 @@ import {FlipWords} from "@/components/ui/flip-words.tsx";
 import {motion} from "framer-motion";
 import {Button} from "@/components/ui/button.tsx";
 import picture from '/profile_page.jpeg';
-import resume from '/Cristian_Lorenzo_2024_Resume.pdf'
+import resume from '/CL_Resume.pdf';
 
 
 export function AboutMe() {
     const words = [
         "Student", "Software Engineer", "Fast Learner", "Full-Stack Developer"
     ]
-
-    const dotBG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="none">
-        <circle fill="rgba(14, 31, 68, 0.3)" id="pattern-circle" cx="10" cy="10" r="1.6257413380501518"></circle>
-    </svg>`;
-
-    const encodedSVG = `data:image/svg+xml;base64,${btoa(dotBG)}`;
 
     return (
         <motion.div
@@ -27,12 +21,11 @@ export function AboutMe() {
             }}
         >
             <div
-                className=" w-full border border-b-1 shadow-md flex flex-col md:flex-row items-center justify-center py-10"
-                style={{height: "auto", width: "auto", backgroundImage: `url('${encodedSVG}')`}}
+                className="md:min-h-screen bg-dot-black/[0.2] w-full border-b-1 shadow-md flex flex-col lg:flex-row items-center justify-center"
                 // backgroundColor:"rgba(116,188,207,255)"
             >
 
-                <div className="md:ml-4 flex flex-col items-center md:items-end sm:w-2/3 md:h-full">
+                <div className="flex flex-col items-center mx-auto sm:w-2/3 lg:items-end pt-10">
                     <motion.div
                         initial={{opacity: 0.0, x: -40}}
                         whileInView={{opacity: 1, x: 0}}
@@ -42,11 +35,11 @@ export function AboutMe() {
                             ease: "easeInOut",
                         }}
                     >
-                        <div className="about flex flex-col items-center">
+                        <div className="about flex flex-col justify-center items-center mx-auto">
                             <img src={picture} alt="Picture"
-                                 className="w-64 h-64 md:h-72 md:w-72 lg:w-96 lg:h-96 rounded-full"
+                                 className="w-64 h-64 md:h-96 md:w-96 xl:w-[28rem] xl:h-[28rem] rounded-full"
                             />
-                            <span className="font-bold text-xl  mt-4 ">Cristian Lorenzo-Pavon 👋</span>
+                            <span className="font-bold text-xl mt-4 ">Cristian Lorenzo-Pavon 👋</span>
                             <div>
                                 <FlipWords words={words}/>
                             </div>
@@ -54,18 +47,14 @@ export function AboutMe() {
                     </motion.div>
 
                 </div>
-                <div className="about-me w-full mx-auto mb-10 ">
+                <div className="about-me w-full mx-auto">
                     <h1 className="mb-2 text-4xl text-center sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-950 py-4">
                         About me
                     </h1>
                     <p className="mx-auto w-full  max-w-sm md:max-w-lg lg:max-w-xl px-4 text-center">
-                        I was born in <span className="text-blue-500">Chapel Hill, North Carolina</span> and
-                        graduating
-                        with
-                        a
-                        Bachelors in Computer Science,
-                        with a concentration in Data Science and Big Data, from the University of North Carolina at
-                        Greensboro this Fall.
+                        I'm located in <span className="text-blue-500">North Carolina</span> and obtained a <span className="text-blue-500">Bachelor's degree in Computer Science </span> with
+                        a concentration in Data Science from the University of North Carolina at Greensboro. I
+                        am currently pursuing a <span className={"text-red-500"}>Master's degree in Computer Science</span> at North Carolina State University.
                     </p>
                     <br/>
                     <p className="mx-auto w-full max-w-sm md:max-w-lg lg:max-w-xl px-4 text-center mb-4 ">
@@ -76,9 +65,9 @@ export function AboutMe() {
                         (chihuahua & maltipoo)
                     </p>
 
-                    <div className="flex justify-center">
+                    <div className="flex justify-center my-10">
                         <a href={resume}>
-                            <Button className="mt-10"
+                            <Button
                             >
                                 <svg className="mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                      viewBox="0 0 24 24" fill="none">

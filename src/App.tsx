@@ -6,6 +6,7 @@ import {Contact} from "@/components/portfolio/contact.tsx";
 import {Footer} from "@/components/portfolio/footer.tsx";
 import {Landing} from "@/components/portfolio/landingpage.tsx";
 import {useEffect, useState} from "react";
+import {Toaster} from "@/components/ui/toaster.tsx";
 
 function App() {
     const [isTransparent, setIsTransparent] = useState(true);
@@ -50,6 +51,7 @@ function App() {
               <div className="footer">
                   <Footer/>
               </div>
+              <Toaster />
           </div>
       </div>
 

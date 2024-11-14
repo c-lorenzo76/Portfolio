@@ -41,7 +41,7 @@ export function Projects() {
                         <li>
                             <Badge variant="default"
                                    className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
-                                TailwindCSS
+                                Tailwind
                             </Badge>
                         </li>
                         <li>
@@ -106,7 +106,7 @@ export function Projects() {
                         </li>
                         <li>
                             <Badge variant="default"
-                                   className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>TailwindCSS</Badge>
+                                   className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Tailwind</Badge>
                         </li>
                         <li>
                             <Badge variant="default"
@@ -208,8 +208,8 @@ export function Projects() {
     ]
 
     return (
-        <div className="flex flex-col items-center w-full mx-auto">
-            <h1 className="text-4xl sm:text-6xl font-bold relative z-20 bg-clip-text py-8 mt-12 mb-12 text-center ">
+        <div className="flex flex-col items-center w-full mx-auto ">
+            <h1 className="text-4xl sm:text-6xl font-bold relative z-20 bg-clip-text py-20 md:py-0 md:mb-10 text-center ">
                 ⚡ Selected Projects
             </h1>
             <div

@@ -9,28 +9,20 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 import { motion } from "framer-motion"
-import {
-    Popover,
-    PopoverContent,
-    PopoverTrigger,
-} from "@/components/ui/popover"
-import {useState} from "react";
-
+import {useToast} from "@/hooks/use-toast"
 
 export function Contact() {
-
-    const [isPopoverVisible, setPopoverVisible] = useState(false);
+    const { toast } = useToast()
 
     const handleCopyEmail = () => {
         navigator.clipboard.writeText('c.lorenzopav@gmail.com')
             .then(() => {
-                setPopoverVisible(true);
+                toast({
+                    title: "Copied email",
+                    description: "Email has been copied to the clipboard!",
+                    variant: "default",
+                })
                 console.log('copied gmail');
-
-                // Hide the popover after 3 seconds
-                setTimeout(() => {
-                    setPopoverVisible(false);
-                }, 3000);
             })
             .catch((err) => {
                 console.error('Failed to copy: ', err);
@@ -68,26 +60,14 @@ export function Contact() {
                         </CardContent>
                         <CardFooter>
                             <div className="flex flex-row w-full text-muted-foreground">
-                                <div className="flex flex-col ">
+                                <div className="flex flex-col">
                                     Connect
-                                    <Popover>
-                                        <PopoverTrigger>
-                                            <Button
-                                                className="p-0 hover:bg-transparent bg-transparent text-muted-foreground"
-                                                onClick={handleCopyEmail}
-                                            >
-                                                <Copy className="mr-1.5 h-5 w-5 "/> c.lorenzopav@gmail.com
-                                            </Button>
-                                        </PopoverTrigger>
-                                        {isPopoverVisible && (
-                                            <PopoverContent
-                                                className={"w-40 h-20 flex justify-center items-center transition-opacity duration-300 ease-in-out bg-gray-100 shadow-lg rounded-lg"}>
-                                                <div className="text-center font-semibold text-blue-600">
-                                                    Email copied!
-                                                </div>
-                                            </PopoverContent>
-                                        )}
-                                    </Popover>
+                                    <Button
+                                        className="p-0 hover:bg-transparent bg-transparent text-muted-foreground"
+                                        onClick={handleCopyEmail}
+                                    >
+                                        <Copy className="mr-1.5 h-5 w-5"/> c.lorenzopav@gmail.com
+                                    </Button>
                                 </div>
                                 <div className="flex flex-col items-end w-full">
                                     Socials

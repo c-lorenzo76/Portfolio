@@ -6,7 +6,7 @@ export const Landing = () => {
             <div
                 className={"font-poppins relative h-[100vh] w-full flex flex-col gap-4 items-center justify-center px-4"}>
                 <h1 className={"text-center text-6xl"}>Cristian Lorenzo Pavon</h1>
-                <h4 className={"text-center text-4xl"}>Computer Science at UNCG</h4>
+                <h4 className={"text-center text-4xl"}>B.S. Computer Science</h4>
 
                 <div className="flex flex-row bg-transparent hover:bg-transparent p-0 space-x-5"
                      role="icon">
