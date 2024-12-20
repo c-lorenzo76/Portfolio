@@ -1,5 +1,5 @@
-import { Copy, Mail } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import {Copy, Mail} from "lucide-react"
+import {Button} from "@/components/ui/button"
 import {
     Card,
     CardContent,
@@ -8,11 +8,11 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
-import { motion } from "framer-motion"
+import {motion} from "framer-motion"
 import {useToast} from "@/hooks/use-toast"
 
 export function Contact() {
-    const { toast } = useToast()
+    const {toast} = useToast()
 
     const handleCopyEmail = () => {
         navigator.clipboard.writeText('c.lorenzopav@gmail.com')
@@ -40,7 +40,7 @@ export function Contact() {
             }}
         >
             <div className="mt-36 h-full">
-                <h1 className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text py-8 mt-12 mb-12 text-center ">
+                <h1 className="font-matemasie dark:text-emerald-300 text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text py-8 mt-12 mb-12 text-center ">
                     Contact me
                 </h1>
                 <div className="flex flex-col items-center mb-24 ">
@@ -77,7 +77,7 @@ export function Contact() {
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 width="24"
-                                                fill=""
+                                                className={"dark:fill-white"}
                                                 height="24"
                                                 viewBox="0 0 24 24"
                                             >
@@ -91,8 +91,9 @@ export function Contact() {
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 width="24"
                                                 height="24"
-                                                fill=""
+                                                className={"dark:fill-white"}
                                                 viewBox="0 0 24 24"
+
 
                                             >
                                                 <path
@@ -105,8 +106,10 @@ export function Contact() {
                                             width="24"
                                             height="24"
                                             viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg" fill="none">
-                                            <g fill="#000000">
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className={"dark:fill-white"}
+                                        >
+                                            <g>
                                                 <path
                                                     d="M10.768 4.112A2.114 2.114 0 018.65 6.226a2.114 2.114 0 01-2.116-2.112C6.535 2.946 7.482 2 8.65 2s2.117.946 2.117 2.112zM13.21 6.225c.808 0 1.464-.655 1.464-1.462 0-.808-.655-1.463-1.465-1.463a1.464 1.464 0 100 2.925zM14.381 6.875c.342 0 .619.276.619.617v3.288a2.272 2.272 0 01-2.274 2.27h-.01c-.346 0-.673-.077-.966-.214A3.673 3.673 0 018.488 15a3.669 3.669 0 01-3.581-3.75h1.475V6.875h8z"/>
                                                 <path fillRule="evenodd"

@@ -1,12 +1,15 @@
 import {AuroraBackground} from "@/components/ui/aurora-background.tsx";
+import {MapPin} from 'lucide-react';
 
 export const Landing = () => {
     return (
         <AuroraBackground>
             <div
-                className={"font-poppins relative h-[100vh] w-full flex flex-col gap-4 items-center justify-center px-4"}>
-                <h1 className={"text-center text-6xl"}>Cristian Lorenzo Pavon</h1>
-                <h4 className={"text-center text-4xl"}>B.S. Computer Science</h4>
+                className={"relative h-[100vh] w-full flex flex-col gap-4 items-center justify-center px-4 text-black dark:text-white"}>
+                <h1 className={"font-matemasie text-center text-6xl dark:text-neutral-200"}>Cristian Lorenzo Pavon</h1>
+                <h4 className={"font-inconsolata font-bold text-center text-4xl flex items-center dark:text-blue-300"}>
+                    <MapPin className={"mr-2"} fill={"red"}/> North Carolina
+                </h4>
 
                 <div className="flex flex-row bg-transparent hover:bg-transparent p-0 space-x-5"
                      role="icon">
@@ -14,7 +17,7 @@ export const Landing = () => {
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
-                            fill=""
+                            className={"fill-black dark:fill-white"}
                             height="24"
                             viewBox="0 0 24 24"
                         >
@@ -28,7 +31,7 @@ export const Landing = () => {
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
                             height="24"
-                            fill=""
+                            className={"fill-black dark:fill-white"}
                             viewBox="0 0 24 24"
 
                         >

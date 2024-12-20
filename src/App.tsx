@@ -31,7 +31,7 @@ function App() {
 
   return (
       <div>
-          <div className="light:text-black flex flex-col w-full border">
+          <div className="light:text-black flex flex-col w-full border bg-gray-100 dark:bg-gray-900 dark:text-white">
               <Navbar isTransparent={isTransparent}/>
               <div className={"landing-page"}>
                   <Landing/>

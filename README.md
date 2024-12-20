@@ -19,6 +19,14 @@ https://c-lorenzo76.github.io/Portfolio/
 </div>
 
 ### Issues
+12/19 pt2 <br>
+I finished the last things. I just need to finish the projects how the styling looks like in dark. 
+
+12/19<br>
+I have updated the most of my portfolio from making it light/dark mode
+have done some adjustments to the about me. Need to fix how the navbar looks like 
+on devices from the iPhone SE the sheet trigger is off-screen. 
+
 10/8<br>
 Okay i'm heated I can't figure out what is making the sheet trigger move on the x-axis whenever its in mobile view.
 I just need to the spacing for the divs and the fix that issue and then mess around with color and see what goes good. 

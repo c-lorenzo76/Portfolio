@@ -29,6 +29,8 @@ const config = {
         extend: {
             fontFamily: {
                 poppins: ['Poppins', 'sans-serif'],
+                matemasie: ['Matemasie', 'sans-serif'],
+                inconsolata: ['Inconsolata', 'monospace'],
             },
             colors: {
                 border: "hsl(var(--border))",

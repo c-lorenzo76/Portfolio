@@ -1,4 +1,6 @@
 @import "@fontsource/poppins";
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -39,6 +41,9 @@
         --ring: 224 71.4% 4.1%;
 
         --radius: 0.5rem;
+
+        --svg-primary: black;
+        --svg-secondary: white;
     }
 
     .dark {
@@ -69,6 +74,9 @@
         --border: 215 27.9% 16.9%;
         --input: 215 27.9% 16.9%;
         --ring: 216 12.2% 83.9%;
+
+        --svg-primary: white;
+        --svg-secondary: black;
     }
 }
 
