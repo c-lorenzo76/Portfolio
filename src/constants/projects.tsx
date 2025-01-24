@@ -25,25 +25,25 @@ export const projects = [
                 <ul className={"flex flex-row space-x-1 lg:space-x-2 items-end mx-auto justify-center"}>
                     <li>
                         <Badge variant="default"
-                               className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
                             React
                         </Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
                             Golang
                         </Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
                             Tailwind
                         </Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
                             MySQL
                         </Badge>
                     </li>
@@ -52,7 +52,7 @@ export const projects = [
                     href="https://flores-remodeling.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className=" bg-primary text-primary-foreground hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm lg:text-lg"
+                    className=" bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm lg:text-lg"
                 >
                     <Link className={"w-5 h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 mr-2"}/>
                     Website
@@ -84,19 +84,19 @@ export const projects = [
                 <ul className={"flex flex-row space-x-1 lg:space-x-2 items-end mx-auto justify-center "}>
                     <li>
                         <Badge variant="default"
-                               className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>React</Badge>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>React</Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Express</Badge>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Express</Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Tailwind</Badge>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Tailwind</Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Google
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Google
                             Cloud</Badge>
                     </li>
                 </ul>
@@ -104,7 +104,7 @@ export const projects = [
                     href="https://github.com/c-lorenzo76/Veeto"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm lg:text-lg"
+                    className="bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm lg:text-lg"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -151,19 +151,19 @@ export const projects = [
                         <li>
 
                             <Badge variant="default"
-                                   className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Angular</Badge>
+                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Angular</Badge>
                         </li>
                         <li>
                             <Badge variant="default"
-                                   className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Express</Badge>
+                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Express</Badge>
                         </li>
                         <li>
                             <Badge variant="default"
-                                   className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Linode</Badge>
+                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Linode</Badge>
                         </li>
                         <li>
                             <Badge variant="default"
-                                   className={"md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>GitHub
+                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>GitHub
                                 Action</Badge>
                         </li>
                     </ul>
@@ -171,7 +171,7 @@ export const projects = [
                         href="https://github.com/usman-z/Campus_Marketplace"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm lg:text-lg"
+                        className="bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm lg:text-lg"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

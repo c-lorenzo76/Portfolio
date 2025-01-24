@@ -1,9 +1,9 @@
 export const education = [
     {
-        university: "Central Carolina Community College",
-        website : "https://www.cccc.edu",
-        date: "2020 - 2022",
-        degree: "Associate in Science"
+        university: "North Carolina State University",
+        website : "https://www.ncsu.edu",
+        date: "2025 - 2027",
+        degree: "MS in Computer Science"
     },
     {
         university: "The University of North Carolina at Greensboro",
@@ -13,9 +13,10 @@ export const education = [
 
     },
     {
-        university: "North Carolina State University",
-        website : "https://www.ncsu.edu",
-        date: "2025 - 2027",
-        degree: "MS in Computer Science"
+        university: "Central Carolina Community College",
+        website : "https://www.cccc.edu",
+        date: "2020 - 2022",
+        degree: "Associate in Science"
     },
+
 ]

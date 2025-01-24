@@ -8,7 +8,7 @@ export const Landing = () => {
                 className={"relative h-[100vh] w-full flex flex-col gap-4 items-center justify-center px-4 text-black dark:text-white"}>
                 <h1 className={"font-matemasie text-center text-6xl dark:text-neutral-200"}>Cristian Lorenzo Pavon</h1>
                 <h4 className={"font-inconsolata font-bold text-center text-4xl flex items-center dark:text-blue-300"}>
-                    <MapPin className={"mr-2"} fill={"red"}/> North Carolina
+                    <MapPin className={"mr-2 fill-red-500"}/> North Carolina
                 </h4>
 
                 <div className="flex flex-row bg-transparent hover:bg-transparent p-0 space-x-5"
