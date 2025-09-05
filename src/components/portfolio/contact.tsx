@@ -1,5 +1,5 @@
-import {Copy, Mail} from "lucide-react"
-import {Button} from "@/components/ui/button"
+import { Copy, Mail } from "lucide-react"
+import { Button } from "@/components/ui/button"
 import {
     Card,
     CardContent,
@@ -8,11 +8,11 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
-import {motion} from "framer-motion"
-import {useToast} from "@/hooks/use-toast"
+import { motion } from "framer-motion"
+import { useToast } from "@/hooks/use-toast"
 
 export function Contact() {
-    const {toast} = useToast()
+    const { toast } = useToast()
 
     const handleCopyEmail = () => {
         navigator.clipboard.writeText('c.lorenzopav@gmail.com')
@@ -30,20 +30,21 @@ export function Contact() {
     };
 
     return (
-        <motion.div
-            initial={{opacity: 0.0, x: -40}}
-            whileInView={{opacity: 1, x: 0}}
-            transition={{
-                delay: 0.3,
-                duration: 0.8,
-                ease: "easeInOut",
-            }}
-        >
-            <div className="mt-36 h-full">
-                <h1 className="font-matemasie dark:text-emerald-300 text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text py-8 mt-12 mb-12 text-center ">
-                    Contact me
-                </h1>
-                <div className="flex flex-col items-center mb-24 ">
+
+        <div className="mt-36 h-full">
+            <h1 className="font-matemasie dark:text-emerald-300 text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text py-8 mt-12 mb-12 text-center ">
+                Contact me
+            </h1>
+            <div className="flex flex-col items-center mb-24 ">
+                <motion.div
+                    initial={{ opacity: 0.0, x: -40 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{
+                        delay: 0.3,
+                        duration: 0.8,
+                        ease: "easeInOut",
+                    }}
+                >
                     <Card className="w-[360px] md:w-[600px]">
                         <CardHeader>
                             <CardTitle>Ready to work together?</CardTitle>
@@ -51,11 +52,11 @@ export function Contact() {
                         </CardHeader>
                         <CardContent className="grid ">
                             <Button className="w-full"
-                                    onClick={() => {
-                                        window.location.href = window.location.href = 'mailto:c.lorenzopav@gmail.com?subject=Let%27s%20connect!&body=Hi%20Cristian%2C';
-                                    }}
+                                onClick={() => {
+                                    window.location.href = window.location.href = 'mailto:c.lorenzopav@gmail.com?subject=Let%27s%20connect!&body=Hi%20Cristian%2C';
+                                }}
                             >
-                                <Mail className="mr-2 h-4 w-4"/> Send me a message
+                                <Mail className="mr-2 h-4 w-4" /> Send me a message
                             </Button>
                         </CardContent>
                         <CardFooter>
@@ -66,13 +67,13 @@ export function Contact() {
                                         className="p-0 hover:bg-transparent bg-transparent text-muted-foreground"
                                         onClick={handleCopyEmail}
                                     >
-                                        <Copy className="mr-1.5 h-5 w-5"/> c.lorenzopav@gmail.com
+                                        <Copy className="mr-1.5 h-5 w-5" /> c.lorenzopav@gmail.com
                                     </Button>
                                 </div>
                                 <div className="flex flex-col items-end w-full">
                                     Socials
                                     <div className="flex flex-row bg-transparent hover:bg-transparent p-0 space-x-2.5"
-                                         role="icon">
+                                        role="icon">
                                         <a href={"https://github.com/c-lorenzo76"}>
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -101,30 +102,14 @@ export function Contact() {
                                                 />
                                             </svg>
                                         </a>
-
-                                        <svg
-                                            width="24"
-                                            height="24"
-                                            viewBox="0 0 16 16"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            className={"dark:fill-white"}
-                                        >
-                                            <g>
-                                                <path
-                                                    d="M10.768 4.112A2.114 2.114 0 018.65 6.226a2.114 2.114 0 01-2.116-2.112C6.535 2.946 7.482 2 8.65 2s2.117.946 2.117 2.112zM13.21 6.225c.808 0 1.464-.655 1.464-1.462 0-.808-.655-1.463-1.465-1.463a1.464 1.464 0 100 2.925zM14.381 6.875c.342 0 .619.276.619.617v3.288a2.272 2.272 0 01-2.274 2.27h-.01c-.346 0-.673-.077-.966-.214A3.673 3.673 0 018.488 15a3.669 3.669 0 01-3.581-3.75h1.475V6.875h8z"/>
-                                                <path fillRule="evenodd"
-                                                      d="M7.566 4.925h-5.97A.596.596 0 001 5.521v5.958c0 .33.267.596.597.596h5.969c.33 0 .597-.267.597-.596V5.521a.596.596 0 00-.597-.596zM4.959 7.193h1.193v-.63H3.011v.63h1.188v3.243h.76V7.193z"
-                                                      clipRule="evenodd"/>
-                                            </g>
-                                        </svg>
                                     </div>
                                 </div>
                             </div>
                         </CardFooter>
                     </Card>
-                </div>
+                </motion.div>
             </div>
-        </motion.div>
+        </div>
 
     )
 }

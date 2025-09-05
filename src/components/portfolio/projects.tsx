@@ -4,7 +4,7 @@ import { projects } from "@/constants/projects";
 export function Projects() {
 
     return (
-        <div className="flex flex-col items-center w-full mx-auto ">
+        <div className="flex flex-col items-center w-full mx-auto">
             <h1 className="font-matemasie dark:text-emerald-300 text-4xl sm:text-6xl font-bold relative z-20 bg-clip-text py-20 md:py-10 text-center ">
                 ⚡ Selected Projects
             </h1>

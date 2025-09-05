@@ -29,7 +29,7 @@ export const Home = () => {
         };
     }, []);
 
-    return <div className="light:text-black flex flex-col w-full border">
+    return <div className="light:text-black flex flex-col w-full">
         <Navbar isTransparent={isTransparent} />
         <div className={"landing-page"}>
             <Landing />

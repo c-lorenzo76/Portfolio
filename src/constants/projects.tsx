@@ -7,7 +7,7 @@ export const projects = [
         value: "remodel",
         content: (
             <div
-                className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-10 text-xl md:text-5xl text-white bg-gradient-to-br from-purple-700 to-violet-900">
+                className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-10 text-xl md:text-5xl text-white bg-gradient-to-br from-slate-700 to-slate-900">
                 <h1 className={"font-bold"}>Remodeling</h1>
                 <div className={"text-xs md:text-xl lg:text-2xl md:h-[50%]"}>
                     <ul className={"list-disc list-inside md:space-y-4"}>
@@ -61,12 +61,12 @@ export const projects = [
         )
     },
     {
-        title: "Veeto",
+        title: "Veto",
         value: "food",
         content: (
             <div
-                className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-10 text-xl md:text-5xl text-white bg-gradient-to-br from-purple-700 to-violet-900">
-                <h1 className={"font-bold"}>Veeto</h1>
+                className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-10 text-xl md:text-5xl text-white bg-gradient-to-br from-slate-700 to-slate-900">
+                <h1 className={"font-bold"}>Veto</h1>
                 <div className={"text-xs md:text-xl lg:text-2xl md:h-[50%]"}>
                     <ul className={"list-disc list-inside md:space-y-4"}>
                         <li>
@@ -126,23 +126,21 @@ export const projects = [
         )
     },
     {
-        title: "Marketplace",
+        title: "Spotify Pomodoro",
         value:
-            "marketplace",
+            "pomodoro",
         content:
             (
                 <div
-                    className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-10 text-xl md:text-5xl text-white bg-gradient-to-br from-purple-700 to-violet-900">
-                    <h1 className={"font-bold"}>UNCG Marketplace</h1>
+                    className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-10 text-xl md:text-5xl text-white bg-gradient-to-br from-slate-700 to-slate-900">
+                    <h1 className={"font-bold"}>Spotify Pomodoro</h1>
                     <div className={"text-xs md:text-xl lg:text-2xl md:h-[50%]"}>
                         <ul className="list-disc list-inside md:space-y-4">
-                            <li>Collaborated with a team of 3 and developed an ecommerce application for UNCG
-                                students,
-                                faculty, and staff to buy and sell from other UNCG fellows
+                            <li>Developed a productivity application that integrates the Pomodoro technique with Spotify's API
+                                to enhance focus and time management
                             </li>
-                            <li>Implemented security measures to restrict sign-ups exclusively to users with a UNCG
-                                email
-                                domain, ensuring access control and protecting user data
+                            <li>Implemented OAuth 2.0 authentication to securely connect users' Spotify accounts, allowing
+                                personalized music playback during work and break intervals
                             </li>
                         </ul>
                     </div>
@@ -155,20 +153,11 @@ export const projects = [
                         </li>
                         <li>
                             <Badge variant="default"
-                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Express</Badge>
-                        </li>
-                        <li>
-                            <Badge variant="default"
-                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Linode</Badge>
-                        </li>
-                        <li>
-                            <Badge variant="default"
-                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>GitHub
-                                Action</Badge>
+                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Spotify API</Badge>
                         </li>
                     </ul>
                     <a
-                        href="https://github.com/usman-z/Campus_Marketplace"
+                        href="https://github.com/c-lorenzo76/spotify-pomodoro"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm lg:text-lg"

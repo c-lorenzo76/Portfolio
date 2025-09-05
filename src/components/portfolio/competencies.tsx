@@ -4,13 +4,13 @@ import { technologies, frameworks, tools, databases } from "@/constants/expertis
 
 export function Competencies() {
     return (
-        <div className="mx-auto w-[90%] md:min-h-screen flex flex-col">
+        <div className="mx-auto w-[90%] pb-15 md:pb-32 flex flex-col">
             <div>
                 <h1 className="font-matemasie text-4xl sm:text-6xl font-bold relative z-20 bg-clip-text py-20 text-center dark:text-emerald-300">
                     💡 Competencies
                 </h1>
             </div>
-            <div className={"h-full flex-grow flex justify-center items-center mx-auto"}>
+            <div className={"flex justify-center items-center mx-auto w-full"}>
                 <div
                     className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-8 lg:gap-16 font-inconsolata">
                     <Card className="technologies mx-auto flex flex-col w-full max-w-screen items-center">

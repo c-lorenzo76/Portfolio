@@ -18,7 +18,7 @@ export function Navbar({isTransparent}: NavbarProps) {
                 : 'bg-white dark:bg-gray-800 shadow-md'}`}>
             <div className="me h-full flex items-center flex-shrink-0 w-fit md:w-[300px]">
                 <img
-                    src="https://media.tenor.com/OEAjabUzGKEAAAAi/microsoft-computer.gif"
+                    src="microsoft-computer.gif"
                     alt="Picture"
                     className="w-14 h-14 ml-8 mr-2 md:ml-8 lg:ml-12"
                 />
