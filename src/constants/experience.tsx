@@ -6,7 +6,6 @@ export const experience = [
         date: "Sept 2025 - Present",
         responsibilities: [
             "Assist Level III Product Engineering team in root-cause analysis of ThinkPad hardware and software issues",
-            "Recreate and debug customer-reported issues to determine if root causes are hardware, software, or compatibility-related",
         ]
     },
     {
