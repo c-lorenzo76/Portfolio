@@ -15,7 +15,8 @@ export const experience = [
         date: "Jun 2025 - Aug 2025",
         responsibilities: [
             "Developed a Retrieval-Augmented Generation (RAG) system using Copilot Studio AI Agents to help underwriters query company, federal, and internal guidelines, improving efficiency by delivering answers to policy-related questions",
-            "1st Place for Best Overall Solution in company-wide hackathon for developing a visualization tool that assess loan risk exposure in areas affected by natural disasters, supporting strategic decision-making",
+            "1st Place for Best Overall Solution in company-wide hackathon",
+            // "1st Place for Best Overall Solution in company-wide hackathon for developing a visualization tool that assess loan risk exposure in areas affected by natural disasters, supporting strategic decision-making",
         ]
     },
     // {
