@@ -1,9 +1,18 @@
 export const experience = [
     {
+        company:"UBS",
+        website: "https://www.ubs.com", 
+        title:"Software Engineer Intern", 
+        date: "Jun 2026 - Aug 2026", 
+        responsibilities: [
+            "Automate the onboarding and offloading process for the firm's internal applications using Python and Selenium, reducing manual effort by 80% and improving accuracy in user access management", 
+        ] 
+    }, 
+    {
         company: "Lenovo",
         website: "https://www.lenovo.com",
         title: "Quality Engineer Intern",
-        date: "Sept 2025 - Present",
+        date: "Sept 2025 - Dec 2025",
         responsibilities: [
             "Assist Level III Product Engineering team in root-cause analysis of ThinkPad hardware and software issues",
         ]

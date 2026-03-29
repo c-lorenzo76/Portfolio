@@ -2,7 +2,7 @@ import { FlipWords } from "@/components/ui/flip-words.tsx";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button.tsx";
 import picture from '/profile_page.jpeg';
-import resume from '/CL_Resume_2025.pdf';
+import resume from '/CL_Resume_2026.pdf';
 import { GraduationCap, Building2 } from 'lucide-react';
 import { LinkPreview } from "@/components/ui/link-preview";
 
