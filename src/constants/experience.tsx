@@ -5,7 +5,7 @@ export const experience = [
         title:"Software Engineer Intern", 
         date: "Jun 2026 - Aug 2026", 
         responsibilities: [
-            "Automate the onboarding and offloading process for the firm's internal applications using Python and Selenium, reducing manual effort by 80% and improving accuracy in user access management", 
+            "Automate the onboarding, maintaining, and offloading process for the firm's internal applications, reducing manual effort in user access management", 
         ] 
     }, 
     {
@@ -23,7 +23,7 @@ export const experience = [
         title: "IT Intern",
         date: "Jun 2025 - Aug 2025",
         responsibilities: [
-            "Developed a Retrieval-Augmented Generation (RAG) system using Copilot Studio AI Agents to help underwriters query company, federal, and internal guidelines, improving efficiency by delivering answers to policy-related questions",
+            "Develop a Retrieval-Augmented Generation (RAG) system to help underwriters query company, federal, and internal guidelines, improving efficiency by delivering answers to policy-related questions",
             "1st Place for Best Overall Solution in company-wide hackathon",
             // "1st Place for Best Overall Solution in company-wide hackathon for developing a visualization tool that assess loan risk exposure in areas affected by natural disasters, supporting strategic decision-making",
         ]

@@ -18,11 +18,11 @@ export function AboutMe() {
     return (
 
         <div
-            className="md:min-h-screen bg-dot-black/[0.2] dark:bg-dot-white/[0.2] w-full border-b-1 shadow-md flex flex-col lg:flex-row items-center justify-center"
+            className="md:min-h-screen bg-dot-black/[0.2] dark:bg-dot-white/[0.2] w-full border-b-1 shadow-md flex flex-col lg:flex-row items-center justify-center py-16 md:py-24"
         // backgroundColor:"rgba(116,188,207,255)"
         >
 
-            <div className="flex flex-col items-center mx-auto sm:w-2/3 lg:items-end pt-10">
+            <div className="flex flex-col items-center mx-auto sm:w-2/3 lg:items-end pt-4">
                 <motion.div
                     initial={{ opacity: 0.0, x: -40 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -45,7 +45,7 @@ export function AboutMe() {
 
             </div>
             <div className="about-me w-full mx-auto">
-                <h1 className="mb-2 text-4xl text-center sm:text-7xl font-bold relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-950 py-4">
+                <h1 className="pt-4 pb-2 text-4xl text-center sm:text-7xl font-bold relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-950">
                     About me
                 </h1>
                 <div

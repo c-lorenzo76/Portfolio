@@ -7,9 +7,9 @@ export const projects = [
         value: "remodel",
         content: (
             <div
-                className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-10 text-xl md:text-5xl text-white bg-gradient-to-br from-slate-700 to-slate-900">
-                <h1 className={"font-bold"}>Remodeling</h1>
-                <div className={"text-xs md:text-xl lg:text-2xl md:h-[50%]"}>
+                className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-8 text-white bg-gradient-to-br from-slate-700 to-slate-900">
+                <h1 className={"text-lg md:text-2xl lg:text-3xl font-bold"}>Remodeling</h1>
+                <div className={"text-xs md:text-sm lg:text-base md:h-[50%]"}>
                     <ul className={"list-disc list-inside md:space-y-4"}>
                         <li>
                             Developed a website for a remodeling company, increasing customer engagement
@@ -25,25 +25,25 @@ export const projects = [
                 <ul className={"flex flex-row space-x-1 lg:space-x-2 items-end mx-auto justify-center"}>
                     <li>
                         <Badge variant="default"
-                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-28 md:h-9 text-xs md:text-sm lg:px-2 flex justify-center items-center"}>
                             React
                         </Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-28 md:h-9 text-xs md:text-sm lg:px-2 flex justify-center items-center"}>
                             Golang
                         </Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-28 md:h-9 text-xs md:text-sm lg:px-2 flex justify-center items-center"}>
                             Tailwind
                         </Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-28 md:h-9 text-xs md:text-sm lg:px-2 flex justify-center items-center"}>
                             MySQL
                         </Badge>
                     </li>
@@ -52,7 +52,7 @@ export const projects = [
                     href="https://flores-remodeling.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className=" bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm lg:text-lg"
+                    className=" bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm"
                 >
                     <Link className={"w-5 h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 mr-2"}/>
                     Website
@@ -65,9 +65,9 @@ export const projects = [
         value: "food",
         content: (
             <div
-                className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-10 text-xl md:text-5xl text-white bg-gradient-to-br from-slate-700 to-slate-900">
-                <h1 className={"font-bold"}>Veto</h1>
-                <div className={"text-xs md:text-xl lg:text-2xl md:h-[50%]"}>
+                className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-8 text-white bg-gradient-to-br from-slate-700 to-slate-900">
+                <h1 className={"text-lg md:text-2xl lg:text-3xl font-bold"}>Veto</h1>
+                <div className={"text-xs md:text-sm lg:text-base md:h-[50%]"}>
                     <ul className={"list-disc list-inside md:space-y-4"}>
                         <li>
                             An interactive poll application to help a group of people with deciding where to eat by
@@ -84,19 +84,19 @@ export const projects = [
                 <ul className={"flex flex-row space-x-1 lg:space-x-2 items-end mx-auto justify-center "}>
                     <li>
                         <Badge variant="default"
-                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>React</Badge>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-28 md:h-9 text-xs md:text-sm lg:px-2 flex justify-center items-center"}>React</Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Express</Badge>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-28 md:h-9 text-xs md:text-sm lg:px-2 flex justify-center items-center"}>Express</Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Tailwind</Badge>
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-28 md:h-9 text-xs md:text-sm lg:px-2 flex justify-center items-center"}>Tailwind</Badge>
                     </li>
                     <li>
                         <Badge variant="default"
-                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Google
+                               className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-28 md:h-9 text-xs md:text-sm lg:px-2 flex justify-center items-center"}>Google
                             Cloud</Badge>
                     </li>
                 </ul>
@@ -104,7 +104,7 @@ export const projects = [
                     href="https://github.com/c-lorenzo76/Veeto"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm lg:text-lg"
+                    className="bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -132,9 +132,9 @@ export const projects = [
         content:
             (
                 <div
-                    className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-10 text-xl md:text-5xl text-white bg-gradient-to-br from-slate-700 to-slate-900">
-                    <h1 className={"font-bold"}>Spotify Pomodoro</h1>
-                    <div className={"text-xs md:text-xl lg:text-2xl md:h-[50%]"}>
+                    className="w-full space-y-2 overflow-hidden relative h-full rounded-2xl p-4 md:p-8 text-white bg-gradient-to-br from-slate-700 to-slate-900">
+                    <h1 className={"text-lg md:text-2xl lg:text-3xl font-bold"}>Spotify Pomodoro</h1>
+                    <div className={"text-xs md:text-sm lg:text-base md:h-[50%]"}>
                         <ul className="list-disc list-inside md:space-y-4">
                             <li>Developed a productivity application that integrates the Pomodoro technique with Spotify's API
                                 to enhance focus and time management
@@ -149,18 +149,18 @@ export const projects = [
                         <li>
 
                             <Badge variant="default"
-                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Angular</Badge>
+                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-28 md:h-9 text-xs md:text-sm lg:px-2 flex justify-center items-center"}>Angular</Badge>
                         </li>
                         <li>
                             <Badge variant="default"
-                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-36 md:h-12 text-xs md:text-lg lg:px-2 flex justify-center items-center"}>Spotify API</Badge>
+                                   className={"bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white md:w-28 md:h-9 text-xs md:text-sm lg:px-2 flex justify-center items-center"}>Spotify API</Badge>
                         </li>
                     </ul>
                     <a
                         href="https://github.com/c-lorenzo76/spotify-pomodoro"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm lg:text-lg"
+                        className="bg-primary dark:bg-zinc-700 text-primary-foreground dark:text-white hover:bg-primary/90 rounded-md flex items-center justify-center w-full h-fit p-2 md:p-4 text-xs md:text-sm"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

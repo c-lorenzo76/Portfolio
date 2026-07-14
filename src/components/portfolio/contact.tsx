@@ -31,11 +31,11 @@ export function Contact() {
 
     return (
 
-        <div className="mt-36 h-full">
-            <h1 className="font-matemasie dark:text-emerald-300 text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text py-8 mt-12 mb-12 text-center ">
+        <div className="py-16 md:py-24 h-full">
+            <h1 className="font-matemasie dark:text-emerald-300 text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text pt-4 pb-8 md:pb-12 text-center">
                 Contact me
             </h1>
-            <div className="flex flex-col items-center mb-24 ">
+            <div className="flex flex-col items-center">
                 <motion.div
                     initial={{ opacity: 0.0, x: -40 }}
                     whileInView={{ opacity: 1, x: 0 }}

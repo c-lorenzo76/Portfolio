@@ -33,22 +33,22 @@ function App() {
       <div>
           <div className="light:text-black flex flex-col w-full border bg-gray-100 dark:bg-gray-900 dark:text-white">
               <Navbar isTransparent={isTransparent}/>
-              <div className={"landing-page"}>
+              <div>
                   <Landing/>
               </div>
-              <div id={"about-me"} className="about-me">
+              <div id={"about-me"}>
                   <AboutMe/>
               </div>
-              <div id={"competencies"} className="compentencies">
+              <div id={"competencies"}>
                   <Competencies/>
               </div>
-              <div id={"projects"} className="projects">
+              <div id={"projects"}>
                   <Projects/>
               </div>
-              <div id={"contact"} className="contact">
+              <div id={"contact"}>
                   <Contact/>
               </div>
-              <div className="footer">
+              <div>
                   <Footer/>
               </div>
               <Toaster />

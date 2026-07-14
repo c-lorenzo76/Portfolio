@@ -4,9 +4,9 @@ import { technologies, frameworks, tools, databases } from "@/constants/expertis
 
 export function Competencies() {
     return (
-        <div className="mx-auto w-[90%] pb-15 md:pb-32 flex flex-col">
+        <div className="mx-auto w-[90%] py-16 md:py-24 flex flex-col">
             <div>
-                <h1 className="font-matemasie text-4xl sm:text-6xl font-bold relative z-20 bg-clip-text py-20 text-center dark:text-emerald-300">
+                <h1 className="font-matemasie text-4xl sm:text-6xl font-bold relative z-20 bg-clip-text pt-4 pb-8 md:pb-12 text-center dark:text-emerald-300">
                     💡 Competencies
                 </h1>
             </div>
