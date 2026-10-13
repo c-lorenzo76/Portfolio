@@ -1,10 +1,12 @@
 import {Navbar} from "@/components/portfolio/navbar.tsx";
-import {AboutMe} from "@/components/portfolio/aboutme.tsx";
+// import {AboutMe} from "@/components/portfolio/aboutme.tsx";
+import {AboutMeV2} from "@/components/portfolio/aboutmev2.tsx";
 import {Competencies} from "@/components/portfolio/competencies.tsx";
 import {Projects} from "@/components/portfolio/projects.tsx";
 import {Contact} from "@/components/portfolio/contact.tsx";
 import {Footer} from "@/components/portfolio/footer.tsx";
 import {Landing} from "@/components/portfolio/landingpage.tsx";
+import {WaveDivider} from "@/components/ui/wave-divider.tsx";
 import {useEffect, useState} from "react";
 import {Toaster} from "@/components/ui/toaster.tsx";
 
@@ -36,12 +38,16 @@ function App() {
               <div>
                   <Landing/>
               </div>
-              <div id={"about-me"}>
+              {/* <div id={"about-me"}>
                   <AboutMe/>
+              </div> */}
+              <div id={"about-me-v2"}>
+                  <AboutMeV2/>
               </div>
               <div id={"competencies"}>
                   <Competencies/>
               </div>
+              <WaveDivider fillClassName="fill-slate-100 dark:fill-slate-950" />
               <div id={"projects"}>
                   <Projects/>
               </div>

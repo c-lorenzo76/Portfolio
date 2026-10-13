@@ -1,19 +1,27 @@
 import {AuroraBackground} from "@/components/ui/aurora-background.tsx";
-import {MapPin} from 'lucide-react';
+import {NCBackground} from "@/components/ui/nc-background.tsx";
+import {MapPin, FileText} from 'lucide-react';
+import resume from '/CL_2026.pdf';
 
 export const Landing = () => {
     return (
         <AuroraBackground>
             <div
-                className={"relative h-[100vh] w-full flex flex-col gap-4 items-center justify-center px-4 text-black dark:text-white"}>
-                <h1 className={"font-matemasie text-center text-6xl dark:text-neutral-200"}>Cristian Lorenzo Pavon</h1>
-                <h4 className={"font-inconsolata font-bold text-center text-4xl flex items-center dark:text-blue-300"}>
-                    <MapPin className={"mr-2 fill-red-500"}/> North Carolina
+                className={"relative h-dvh w-full flex flex-col gap-4 items-center justify-center px-4 text-black dark:text-white overflow-hidden"}>
+
+                <NCBackground />
+
+                <h1 className={"relative z-10 font-matemasie text-center text-6xl dark:text-neutral-200"}>Cristian Lorenzo Pavon</h1>
+                <h4 className={"relative z-10 font-inconsolata font-bold text-xl flex items-center gap-2 rounded-full border border-black/15 bg-white/70 px-4 py-2 shadow-sm dark:border-white/20 dark:bg-white/10 dark:text-blue-300"}>
+                    <MapPin className={"w-5 h-5 fill-red-500 stroke-red-700/70"}/> North Carolina
                 </h4>
 
-                <div className="flex flex-row bg-transparent hover:bg-transparent p-0 space-x-5"
+                <div className="relative z-10 flex flex-row items-center space-x-5"
                      role="icon">
-                    <a href={"https://github.com/c-lorenzo76"}>
+                    <a
+                        href={"https://github.com/c-lorenzo76"}
+                        className={"flex items-center justify-center w-12 h-12 rounded-full border border-black/15 bg-white/70 shadow-sm transition-colors hover:bg-white dark:border-white/20 dark:bg-white/10 dark:hover:bg-white/20"}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -26,7 +34,10 @@ export const Landing = () => {
                             />
                         </svg>
                     </a>
-                    <a href={"https://www.linkedin.com/in/cristian-lorenzo-pavon-333680261/"}>
+                    <a
+                        href={"https://www.linkedin.com/in/cristian-lorenzo-pavon-333680261/"}
+                        className={"flex items-center justify-center w-12 h-12 rounded-full border border-black/15 bg-white/70 shadow-sm transition-colors hover:bg-white dark:border-white/20 dark:bg-white/10 dark:hover:bg-white/20"}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -39,6 +50,17 @@ export const Landing = () => {
                                 d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
                             />
                         </svg>
+                    </a>
+                    <a
+                        href={resume}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={"group relative flex items-center justify-center w-12 h-12 rounded-full border border-black/15 bg-white/70 shadow-sm transition-colors hover:bg-white dark:border-white/20 dark:bg-white/10 dark:hover:bg-white/20"}
+                    >
+                        <FileText className={"w-6 h-6 text-black dark:text-white"} />
+                        <span className="pointer-events-none absolute -bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-black/80 px-2 py-1 text-xs text-white opacity-0 transition-opacity duration-200 group-hover:opacity-100 dark:bg-white/90 dark:text-black">
+                            Resume
+                        </span>
                     </a>
                 </div>
 

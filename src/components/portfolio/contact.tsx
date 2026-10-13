@@ -11,6 +11,9 @@ import {
 import { motion } from "framer-motion"
 import { useToast } from "@/hooks/use-toast"
 
+const socialButtonClass =
+    "flex items-center justify-center w-12 h-12 rounded-full border border-black/15 bg-white/70 shadow-sm transition-colors hover:bg-white dark:border-white/20 dark:bg-white/10 dark:hover:bg-white/20"
+
 export function Contact() {
     const { toast } = useToast()
 
@@ -31,7 +34,7 @@ export function Contact() {
 
     return (
 
-        <div className="py-16 md:py-24 h-full">
+        <div className="py-16 md:py-24 h-full bg-gradient-to-b from-slate-100 to-white dark:from-slate-950 dark:to-gray-900">
             <h1 className="font-matemasie dark:text-emerald-300 text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text pt-4 pb-8 md:pb-12 text-center">
                 Contact me
             </h1>
@@ -45,13 +48,14 @@ export function Contact() {
                         ease: "easeInOut",
                     }}
                 >
-                    <Card className="w-[360px] md:w-[600px]">
+                    <Card className="w-[360px] md:w-[600px] rounded-2xl border border-black/15 bg-white/70 shadow-lg backdrop-blur-sm dark:border-white/20 dark:bg-white/5">
                         <CardHeader>
-                            <CardTitle>Ready to work together?</CardTitle>
+                            <CardTitle className="font-bold">Ready to work together?</CardTitle>
                             <CardDescription>Only one click away!</CardDescription>
                         </CardHeader>
                         <CardContent className="grid ">
-                            <Button className="w-full"
+                            <Button
+                                className="w-full rounded-full border border-black/15 bg-white/70 text-black shadow-sm transition-colors hover:bg-white dark:border-white/20 dark:bg-white/10 dark:text-white dark:hover:bg-white/20"
                                 onClick={() => {
                                     window.location.href = window.location.href = 'mailto:c.lorenzopav@gmail.com?subject=Let%27s%20connect!&body=Hi%20Cristian%2C';
                                 }}
@@ -64,7 +68,7 @@ export function Contact() {
                                 <div className="flex flex-col">
                                     Connect
                                     <Button
-                                        className="p-0 hover:bg-transparent bg-transparent text-muted-foreground"
+                                        className="mt-1 h-fit w-fit rounded-full border border-black/15 bg-white/70 px-3 py-1.5 text-black shadow-sm transition-colors hover:bg-white dark:border-white/20 dark:bg-white/10 dark:text-white dark:hover:bg-white/20"
                                         onClick={handleCopyEmail}
                                     >
                                         <Copy className="mr-1.5 h-5 w-5" /> c.lorenzopav@gmail.com
@@ -72,14 +76,14 @@ export function Contact() {
                                 </div>
                                 <div className="flex flex-col items-end w-full">
                                     Socials
-                                    <div className="flex flex-row bg-transparent hover:bg-transparent p-0 space-x-2.5"
+                                    <div className="flex flex-row bg-transparent hover:bg-transparent p-0 space-x-2.5 mt-1"
                                         role="icon">
-                                        <a href={"https://github.com/c-lorenzo76"}>
+                                        <a href={"https://github.com/c-lorenzo76"} className={socialButtonClass}>
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
-                                                width="24"
-                                                className={"dark:fill-white"}
-                                                height="24"
+                                                width="20"
+                                                className={"fill-black dark:fill-white"}
+                                                height="20"
                                                 viewBox="0 0 24 24"
                                             >
                                                 <path
@@ -87,12 +91,12 @@ export function Contact() {
                                                 />
                                             </svg>
                                         </a>
-                                        <a href={"https://www.linkedin.com/in/cristian-lorenzo-pavon-333680261/"}>
+                                        <a href={"https://www.linkedin.com/in/cristian-lorenzo-pavon-333680261/"} className={socialButtonClass}>
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
-                                                width="24"
-                                                height="24"
-                                                className={"dark:fill-white"}
+                                                width="20"
+                                                height="20"
+                                                className={"fill-black dark:fill-white"}
                                                 viewBox="0 0 24 24"
 
 
