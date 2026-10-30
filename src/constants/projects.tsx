@@ -34,7 +34,7 @@ export const projects = [
                 ]}
                 stack={["Angular", "Tailwind CSS", "Spotify Web API"]}
                 links={[
-                    { label: "Repo", href: "https://github.com/c-lorenzo76/spotify-pomodoro", icon: "github" },
+                    { label: "Repo", href: "https://github.com/c-lorenzo76/pomodoro-spotify", icon: "github" },
                 ]}
             />
         )
